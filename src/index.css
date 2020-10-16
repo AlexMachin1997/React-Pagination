@@ -1,0 +1,12 @@
+.table__options__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 900px) {
+    .table__options__container {
+        justify-content: space-between;
+    }
+}
